@@ -1,5 +1,6 @@
 <footer class="footer">
   <section class="container">
+    {{ partial "donate.html" . }}
     {{ with .Site.Params.footercontent | safeHTML }}
       <p>{{.}}</p>
     {{ end }}
