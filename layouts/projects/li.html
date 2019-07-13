@@ -1,4 +1,4 @@
-<li style="text-align: center">
+<li style="text-align: center; padding-bottom: 1.5em">
   <img class="grid-item-img" src="{{ .Params.image}}" width="400px" height="auto" />
   <div><a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a></div>
   <div><span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span></div>
